@@ -7,8 +7,7 @@ int main()
 {
     
     int num, prime;
-    printf("Enter a positive number to check if Prime: ");
-    scanf("%d", &num);
+    num = 465465;
     prime = isPrime(num, num/2);
     if(prime == 1)
     {
@@ -33,4 +32,6 @@ int isPrime(int n, int i)
         else
             isPrime(n, i-1);
     }
+}
+
 }
